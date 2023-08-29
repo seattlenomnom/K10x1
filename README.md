@@ -6,4 +6,7 @@ A text mule to practice elementary concepts that will be used to solve problem
  create an array of integers, and a function to print the array out. Make use
 of pointers to pass the array and array size to printArra(), use pointers in
 the loop index variables.
+### Second thing
+create a printArray() function. It uses printf("%i ", *(a + index))
+is there another way to reference and travel through the array?
 ## Things done
