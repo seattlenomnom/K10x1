@@ -7,6 +7,7 @@ A text mule to practice elementary concepts that will be used to solve problem
 of pointers to pass the array and array size to printArra(), use pointers in
 the loop index variables.
 ### Second thing
-create a printArray() function. It uses printf("%i ", *(a + index))
+create a printArray() function. It uses printf("%i ", \*(a + index))
 is there another way to reference and travel through the array?
+I am going to change printArray to try another style of using pointers.
 ## Things done

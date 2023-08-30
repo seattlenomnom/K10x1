@@ -34,15 +34,16 @@ int main(int argc, char *argv[]){
 /* function definitions */
 
 void printArray(int *a, int numElements){
+    int *p2a;
+    int const *arrayEnd = a + numElements;
 
-    int index;
-
-    index = 0;
-    while(index < numElements){
-        printf("%i ", *(a + index));
-        ++index;
+    p2a = a;
+    while(p2a < arrayEnd){
+        printf("%i ", *p2a);
+        ++p2a;
     }
     printf("\n");
+
 }
 
 
