@@ -39,8 +39,7 @@ void printArray(int *a, int numElements){
 
     p2a = a;
     while(p2a < arrayEnd){
-        printf("%i ", *p2a);
-        ++p2a;
+        printf("%i ", *p2a++);
     }
     printf("\n");
 

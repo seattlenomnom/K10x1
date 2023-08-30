@@ -9,5 +9,8 @@ the loop index variables.
 ### Second thing
 create a printArray() function. It uses printf("%i ", \*(a + index))
 is there another way to reference and travel through the array?
-I am going to change printArray to try another style of using pointers.
+I am going to change printArray to try another style of using pointers. It
+workded. I tried another style of pointer manipulation and it worked.
+Add, Commit, then merge. I like the last version of printArray. How do I
+remember the previous two styles? They have thier uses.
 ## Things done
