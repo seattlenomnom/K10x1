@@ -16,6 +16,7 @@
 /* function declarations */
 
 void printArray(int *a, int numElements);
+void sort(int *a, int size);
 
 
 /* main */
@@ -26,6 +27,8 @@ int main(int argc, char *argv[]){
         55};
     const int numInts = 16;
 
+    printArray(a, numInts);
+    sort(a, numInts);
     printArray(a, numInts);
 
     return(0);
@@ -44,6 +47,22 @@ void printArray(int *a, int numElements){
     printf("\n");
 
 }
+
+void sort(int *a, int size){
+
+    int i;            /* outer index */
+    int j;            /* inner index */
+    int temp;         /* temporary */
+
+   for(i = 0; i < size - 1; ++i)
+      for(j = i + 1; j < size; ++j)
+         if(*(a + i) > *(a + j)){
+            temp = *(a + i);
+           *(a + i) = *(a + j);
+          *(a + j) = temp;
+         }
+}
+
 
 
 
